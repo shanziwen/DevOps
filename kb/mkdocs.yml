@@ -1,2 +1,78 @@
 site_name: Allen's Knowledge Base
 dev_addr: 0.0.0.0:8000
+theme: readthedocs
+use_directory_urls: false
+nav:
+  - index.md
+  - OS:
+    - Linux:
+      - Overview: os/linux/overview.md
+    - Windows:
+      - Overview: os/windows/overview.md
+  - Programming:
+    - Python:
+      - Overview: programming/python/overview.md
+    - Ruby:
+      - Overview: programming/ruby/overview.md
+    - Java:
+      - Overview: programming/java/overview.md
+    - Javascript:
+      - Overview: programming/javascript/overview.md
+    - Go:
+      - Overview: programming/go/overview.md
+  - Networking:
+    - Overview: networking/overview.md
+  - Databases:
+    - MySQL: 
+      - Overview: databases/mysql/overview.md
+    - PostgreSQL: 
+      - Overview: databases/postgresql/overview.md
+    - MSSQL: 
+      - Overview: databases/mssql/overview.md
+    - MongoDB: 
+      - Overview: databases/mongodb/overview.md
+    - Redis: 
+      - Overview: databases/redis/overview.md
+    - Memcached: 
+      - Overview: databases/memcached/overview.md
+  - Infrastructure as Code:
+    - Terraform:
+      - Overview: infrastructure_as_code/terraform/overview.md
+  - Containerisation:
+    - Docker:
+      - Overview: containerisation/docker/overview.md
+  - Orchestration:
+    - Kubernetes:
+      - Overview: orchestration/kubernetes/overview.md
+  - Cloud Computing:
+    - AWS: 
+      - Overview: cloud_computing/aws/overview.md
+  - Logging:
+    - ELK Stack:
+      - Overview: logging/elk/overview.md
+  - Monitoring:
+    - Datadog:
+      - Overview: monitoring/datadog/overview.md
+  - Configuration Management:
+    - Ansible:
+      - Overview: configuration_management/ansible/overview.md
+    - Puppet:
+      - Overview: configuration_management/puppet/overview.md
+    - Chef:
+      - Overview: configuration_management/chef/overview.md
+  - Version Control:
+    - Git:
+      - Overview: version_control/git/overview.md
+    - GitHub:
+      - Overview: version_control/github/overview.md
+    - GitLab:
+      - Overview: version_control/gitlab/overview.md
+    - BitBucket:
+      - Overview: version_control/bitbucket/overview.md
+  - CI/CD Pipelines:
+    - Jenkins:
+      - Overview: cicd/jenkins/overview.md
+    - GitHub Action:
+      - Overview: cicd/github_action/overview.md
+    - Circle CI:
+      - Overview: cicd/circle_ci/overview.md
