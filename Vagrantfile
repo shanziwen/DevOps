@@ -88,5 +88,7 @@ Vagrant.configure("2") do |config|
     curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -so "/tmp/awscliv2.zip"
     unzip -d /tmp /tmp/awscliv2.zip
     sudo /tmp/aws/install
+    # Install mkdocs and plugins
+    sudo pip3.11 install -r /vagrant/requirements.txt
   SHELL
 end

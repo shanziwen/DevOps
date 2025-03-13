@@ -2,5 +2,8 @@
   "hosted-zone:account=961141739508:domainName=allendevops.net:region=us-east-1": {
     "Id": "/hostedzone/Z05386752BCQ6U6PWOR4H",
     "Name": "allendevops.net."
-  }
+  },
+  "acknowledged-issue-numbers": [
+    32775
+  ]
 }
