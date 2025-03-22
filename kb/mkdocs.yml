@@ -2,6 +2,9 @@ site_name: Allen's Knowledge Base
 dev_addr: 0.0.0.0:8000
 theme: 
   name: material
+  features:
+    - content.code.copy
+    - content.code.select
 plugins:
   - tags
   - meta
@@ -10,3 +13,10 @@ plugins:
       nav_file: nav.md
 markdown_extensions:
   - def_list
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
