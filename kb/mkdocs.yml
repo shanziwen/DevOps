@@ -2,7 +2,6 @@ site_name: Allen's Knowledge Base
 dev_addr: 0.0.0.0:8000
 theme: 
   name: material
-use_directory_urls: false
 plugins:
   - tags
   - meta

@@ -1,6 +1,8 @@
 # man
 
-## USAGE
+*an interface to the system reference manuals*
+
+## SYNOPSIS
 
 - `man [man options] [[section] page ...] ...`
 - `man -k [apropos options] regexp ...`
