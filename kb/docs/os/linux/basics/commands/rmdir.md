@@ -1,0 +1,4 @@
+# rmdir
+## SYNOPSIS
+## OPTIONS
+## EXAMPLES

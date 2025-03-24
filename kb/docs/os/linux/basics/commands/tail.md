@@ -1,0 +1,4 @@
+# tail
+## SYNOPSIS
+## OPTIONS
+## EXAMPLES

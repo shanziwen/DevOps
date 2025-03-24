@@ -1,0 +1,4 @@
+# locate
+## SYNOPSIS
+## OPTIONS
+## EXAMPLES

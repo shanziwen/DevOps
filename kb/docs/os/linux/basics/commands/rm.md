@@ -1,0 +1,4 @@
+# rm
+## SYNOPSIS
+## OPTIONS
+## EXAMPLES
