@@ -1,0 +1,77 @@
+nav:
+    - Home: index.md
+    - Foundations:
+        - Operating System:
+            - foundations/os/overview.md
+            - Linux: foundations/os/linux/
+            - Windows: foundations/os/windows/
+        - Networking:
+            - foundations/networking/overview.md
+            - protocols: foundations/networking/protocols/
+            - proxies: foundations/networking/proxies/
+        - Programming:
+            - foundations/programming/overview.md
+            - Go: foundations/programming/go/
+            - Java: foundations/programming/java/
+            - JavaScript: foundations/programming/javascript/
+            - Python: foundations/programming/python/
+            - Ruby: foundations/programming/ruby/
+            - Rust: foundations/programming/rust/
+    - Infrastructure:
+        - Infrastructure as Code:
+            - infrastructure/infrastructure_as_code/overview.md
+            - Terraform: infrastructure/infrastructure_as_code/terraform/
+        - Configuration Management:
+            - infrastructure/configuration_management/overview.md
+            - Ansible: infrastructure/configuration_management/ansible/
+            - Chef: infrastructure/configuration_management/chef/
+            - Puppet: infrastructure/configuration_management/puppet/
+    - Software Delivery:
+        - Version Control:
+            - software_delivery/version_control/overview.md
+            - Git: software_delivery/version_control/git/
+            - GitHub: software_delivery/version_control/github/
+            - BitBucket: software_delivery/version_control/bitbucket/
+            - GitLab: software_delivery/version_control/gitlab/
+        - CI/CD:
+            - software_delivery/ci_cd/overview.md
+            - Circle CI: software_delivery/ci_cd/circle_ci/
+            - GitHub Action: software_delivery/ci_cd/github_action/
+            - Jenkins: software_delivery/ci_cd/jenkins/
+    - Observability:
+        - Monitoring:
+            - observability/monitoring/overview.md
+            - Datadog: observability/monitoring/datadog/
+            - Dynatrace: observability/monitoring/dynatrace/
+            - New Relic: observability/monitoring/newrelic/
+        - Logging:
+            - observability/logging/overview.md
+            - ELK Stack: observability/logging/elk/
+        - Alerting:
+            - observability/alerting/overview.md
+            - PagerDuty: observability/alerting/pagerduty/
+    - Containers & Orchestration:
+        - Containers:
+            - containers_and_orchestration/containers/overview.md
+            - Docker: containers_and_orchestration/containers/docker/
+            - Podman: containers_and_orchestration/containers/podman/
+        - Orchestration:
+            - containers_and_orchestration/orchestration/overview.md
+            - Kubernetes: containers_and_orchestration/orchestration/kubernetes/
+    - Cloud Computing:
+        - cloud_computing/overview.md
+        - AWS: cloud_computing/aws/
+        - Azure: cloud_computing/azure/
+    - Data:
+        - Database:
+            - data/databases/overview.md
+            - Memcached: data/databases/memcached/
+            - MongoDB: data/databases/mongodb/
+            - MSSQL: data/databases/mssql/
+            - MySQL: data/databases/mysql/
+            - PostgreSQL: data/databases/postgresql/
+            - Redis: data/databases/redis/
+        - Messages and Queues:
+            - data/messages_and_queues/overview.md
+            - Kafka: data/messages_and_queues/kafka/
+            - RabbitMQ: data/messages_and_queues/rabbitmq/
