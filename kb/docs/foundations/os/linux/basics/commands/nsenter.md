@@ -1,0 +1,4 @@
+# passwd
+## SYNOPSIS
+## OPTIONS
+## EXAMPLES
