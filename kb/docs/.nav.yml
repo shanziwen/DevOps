@@ -3,7 +3,10 @@ nav:
     - Foundations:
         - Operating System:
             - foundations/os/overview.md
-            - Linux: foundations/os/linux/
+            - OS Principles: foundations/os/os_principles
+            - Linux:
+                - foundations/os/linux/*.md
+                - Basic: foundations/os/linux/basics
             - Windows: foundations/os/windows/
         - Networking:
             - foundations/networking/overview.md

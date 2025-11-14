@@ -55,9 +55,8 @@ Vagrant.configure("2") do |config|
   # backing providers for Vagrant. These expose provider-specific options.
   # Example for VirtualBox:
   #
-
+  config.vm.synced_folder "./", "/vagrant"
   config.vm.define "vagrant-kb" do |kb|
-    kb.vm.synced_folder "./", "/vagrant"
     kb.vm.synced_folder "~/.aws/", "/home/vagrant/.aws"
     kb.vm.network "private_network", ip: "192.168.100.2"
     kb.vm.provider "vmware_desktop" do |vm|
@@ -89,7 +88,6 @@ Vagrant.configure("2") do |config|
   end
 
   config.vm.define "vagrant-docker-master" do |dm|
-    dm.vm.synced_folder "docker/master", "/vagrant"
     dm.vm.network "private_network", ip: "192.168.100.3"
     dm.vm.provider "vmware_desktop" do |vm|
     # Display the VirtualBox GUI when booting the machine
@@ -119,7 +117,7 @@ Vagrant.configure("2") do |config|
       sudo apt-get update
       sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
-      sudo install -g root -o root -m 660 /vagrant/daemon.json /etc/docker/
+      sudo install -g root -o root -m 660 /vagrant/docker/master/daemon.json /etc/docker/
       sudo sed -i -e 's#ExecStart=.*#ExecStart=/usr/bin/dockerd --config-file /etc/docker/daemon.json#' /lib/systemd/system/docker.service
       sudo systemctl daemon-reload
       sudo systemctl restart docker.service
